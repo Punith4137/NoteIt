@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_upload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".UploadActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        app:titleTextAppearance="@color/black"
+        app:title="Note It"
+        android:title="Second Page"
+        android:titleTextColor="#FFFFFF" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:backgroundTint="#EEF8FB"
+            android:background="@drawable/roundedborder"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your Note"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/adamina"
+                android:background="@drawable/border_selected"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textColor="#E5000000"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedborder"
+                android:textSize="28dp"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Topic Name"
+                android:textColor="#000000"
+                android:maxLines="1"
+                android:fontFamily="@font/adamina"
+                android:singleLine="true"
+                android:lines="1"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/uploadTopic"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/uploadDesc"
+                android:layout_width="match_parent"
+                android:layout_height="301dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedborder"
+                android:hint="Enter Description"
+                android:paddingBottom="5dp"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/adamina"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:gravity="top"
+                android:textColor="#181818"
+                android:textSize="18dp">
+
+            </EditText>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:padding="5dp"
+                android:backgroundTint="@color/blue"
+                android:id="@+id/saveButton"
+                android:fontFamily="@font/adamina"
+                android:textSize="25dp"
+                android:layout_margin="20dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

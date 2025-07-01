@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    android:backgroundTint="#EEF8FB"
+    android:elevation="4dp"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/leee"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/noteTitle"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/deleteBtn"
+                android:background="@drawable/roundedborder"
+                android:fontFamily="@font/adamina"
+                android:paddingStart="8dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/deleteBtn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/roundedborder"
+                android:padding="5dp"
+                android:src="@android:drawable/ic_menu_delete"
+                app:tint="#03A9F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leee"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noteDesc"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/leee"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/roundedborder"
+                android:fontFamily="@font/adamina"
+                android:paddingStart="8dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="5dp"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textViewDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:text="08 Jun 2025, 12:00 PM"
+                android:fontFamily="@font/adamina"
+                android:paddingStart="8dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background circle shape -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="50dp"
+                android:height="50dp" />
+            </shape>
+    </item>
+
+    <item
+        android:width="50dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:drawable="@drawable/tick" />
+</layer-list>
