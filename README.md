@@ -34,24 +34,24 @@
 
 Here’s what NoteIt looks like in action 👇
 
-![Home Screen](./screenshots/1a.png)
+![Home Screen](./screenshots/1a.jpg)
 
 ---
-![New Note](./screenshots/2a.png)
+![New Note](./screenshots/2a.jpg)
 
 ---
-![Edit Note](./screenshots/3a.png)
+![Edit Note](./screenshots/3a.jpg)
 
 ---
-![Task Manager](./screenshots/4a.png)
+![Task Manager](./screenshots/4a.jpg)
 
 ---
-![Delete Feature](./screenshots/5a.png)
+![Delete Feature](./screenshots/5a.jpg)
 
 ---
-![Background Customization](./screenshots/6a.png)
+![Background Customization](./screenshots/6a.jpg)
 
 ---
-![Combined UI](./screenshots/7a.png)
+![Combined UI](./screenshots/7a.jpg)
 
 ---
